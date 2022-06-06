@@ -1,0 +1,9 @@
+.imge{
+    width: min(680px,50vw);
+    opacity: 0.3;
+    transition: all 0.3s ease-in-out;
+    margin: 2%;
+}
+    .imge:hover{
+        width: min(780px,60vw);
+    }
