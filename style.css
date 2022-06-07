@@ -1,3 +1,42 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+#headerblock{
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 2;
+    height: 50px;
+    background-color: white;
+}
+
+.titletext{
+    top: 0;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 600;
+    background-color:white;
+    color:#D02200;
+}
+
+.helpertext{
+    font-size: 15px;
+    line-height: 15px;
+    color: black;
+}
+
+#content{
+    top:0;
+    margin-top: 50px;
+}
+
+#products{
+    display: block;
+    position: relative;
+}
+
+
 .imge{
     width: min(680px,50vw);
     opacity: 0.3;
