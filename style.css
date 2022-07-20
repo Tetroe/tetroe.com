@@ -2,47 +2,57 @@ html{
     font-family: Helvetica, sans-serif;
 }
 
-#headerblock{
-    position: fixed;
-    display: block;
+.products{
     width: 100%;
-    z-index: 2;
-    height: 50px;
-    background-color: white;
+    float: left;
+    border: 0.5px solid #8D8D87;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: rgba(212,212,202,0.4);
 }
 
-.titletext{
-    top: 0;
-    font-size: 45px;
-    line-height: 45px;
-    font-weight: 600;
-    background-color:white;
-    color:#D02200;
-}
-
-.helpertext{
-    font-size: 15px;
-    line-height: 15px;
-    color: black;
-}
-
-#content{
-    top:0;
-    margin-top: 50px;
-}
-
-#products{
+.producttext{
     display: block;
-    position: relative;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+
 }
 
-
-.imge{
-    width: min(680px,50vw);
-    opacity: 0.3;
-    transition: all 0.3s ease-in-out;
-    margin: 2%;
+.gamsu{
+    font-family: "FontAwesome", Calibri;
+    background-color: rgba(212,212,202,1);
+    color: #8D8D87;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    line-height: 20px; 
+    border-radius: 5px;
+    border: 0.5px solid #8D8D87;
 }
-    .imge:hover{
-        width: min(780px,60vw);
-    }
+
+.gamsu:visited{
+    color: #8D8D87;
+    font-weight: 500;
+}
+
+.cardstocks{
+    font-family: 'Gill Sans MT';
+    color: rgba(255,255,255,0.6);
+    background-color: #121212;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    line-height: 20px; 
+    border-radius: 5px;
+    border: 0.5px solid #8D8D87;
+}
+
+.cardstocks:visited{
+    color: rgba(255,255,255,0.6);
+    font-weight: 500;
+}
