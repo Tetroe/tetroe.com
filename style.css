@@ -15,16 +15,16 @@ html{
 }
 
 .headertext{
-    height: 100%;
+    height: 25px;
     font-size: 25px;
     display: inline-block;
 }
 
 .headerimg{
-    height: 35px;
-    width: 35px;
+    height: 25px;
+    width: 25px;
     float: left;
-    padding: 5px;
+    padding: 0px 4px;
 }
 
 .logo{
