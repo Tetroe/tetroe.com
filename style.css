@@ -36,16 +36,33 @@ html{
 .main{
     width: 80vw;
     margin: 0 auto;
-    max-width: 1920px;
+    max-width: 1080px;
     padding: 10px;
     margin-bottom: 10px;
-    display: flex;
+    border: 1px solid black;
 }
 
 .banner{
     padding: 5px;
+    border: 1px solid red;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: calc(1080px/3);
 }
 
 .bannerimg{
     width: 100%;
 }
+
+@media (min-width: 768px){
+    .banner{
+        width: 31%;
+    }
+
+    .main{
+        display: flex;
+    }
+}
+
+
