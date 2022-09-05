@@ -39,12 +39,10 @@ html{
     max-width: 1080px;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid black;
 }
 
 .banner{
     padding: 5px;
-    border: 1px solid red;
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -55,7 +53,7 @@ html{
     width: 100%;
 }
 
-@media (min-width: 768px){
+@media (min-width: 992px){
     .banner{
         width: 31%;
     }
